@@ -5,25 +5,25 @@ To use JANNICA we need to put in folder JANICCA/data a .csv formating by date,Ce
 
 In atributes_for_data/data.yaml:
 
-  # Change columns names to use to prepare data
-  central_name : Codigo Central
-  date: Date
-  generation: Generacion_MWh
-  tecnology: Tecnologia
+    # Change columns names to use to prepare data
+    central_name : Codigo Central
+    date: Date
+    generation: Generacion_MWh
+    tecnology: Tecnologia
 
-  work: (Build or Predict) # Use Build to make a model , or Predict to use a existing model 
+    work: (Build or Predict) # Use Build to make a model , or Predict to use a existing model 
 
-  ignore_zone: (True or False, to specify if model was by zone(False)  or Tecnology(True))
+    ignore_zone: (True or False, to specify if model was by zone(False)  or Tecnology(True))
 
-  objetive_energy: (Fossil or Renewable or Both)
-  objetive_zone : (Here is necessary put a specific zone or all)
-  objetive_year: 2050 # Year to predict
+    objetive_energy: (Fossil or Renewable or Both)
+    objetive_zone : (Here is necessary put a specific zone or all)
+    objetive_year: 2050 # Year to predict
 
 
-  to_sum: If exist tecnology than have different names and are the same type 
-    - Hidráulica de Pasada
-    - Hidráulica de Embalse
-    - Mini Hidráulica de Pasada
+    to_sum: If exist tecnology than have different names and are the same type 
+      - Hidráulica de Pasada
+      - Hidráulica de Embalse
+      - Mini Hidráulica de Pasada
 
     energy: 
       Renewable: # Specify type of Energy
