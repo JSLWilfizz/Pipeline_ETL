@@ -25,37 +25,37 @@ In atributes_for_data/data.yaml:
     - Hidráulica de Embalse
     - Mini Hidráulica de Pasada
 
-  energy: 
-    Renewable: # Specify type of Energy
-      - Hidráulica de Pasada
-      - Eólica
-      - Solar Fotovoltaica
-      - Cogeneración
-      - Geotermica
-      - Hidráulica de Embalse
-      - Mini Hidráulica de Pasada
+    energy: 
+      Renewable: # Specify type of Energy
+        - Hidráulica de Pasada
+        - Eólica
+        - Solar Fotovoltaica
+        - Cogeneración
+        - Geotermica
+        - Hidráulica de Embalse
+        - Mini Hidráulica de Pasada
 
 
-  Fossil: # Specify type of Energy
-    - Biomasa
-    - Carbón
-    - Gas Natural
-    - Petróleo Diesel
+    Fossil: # Specify type of Energy
+      - Biomasa
+      - Carbón
+      - Gas Natural
+      - Petróleo Diesel
 
-  zones: # How zone are classify 
-    Norte: # Macrozone
-      - Región de Atacama #State
-      - Región de Coquimbo #State
-      - Región de Antofagasta #State 
-      - Región de Arica y Parinacota #State
-    Centro:
-      - Región de Valparaíso #State
-      - Región del Maule #State
-      - Región de Ñuble #State
-      - Región Metropolitana de Santiago #State
-      - Región del Libertador Gral. Bernardo O’Higgins #State
-    Sur:
-      - Región del Biobío #State
-      - Región de la Araucanía #State
-      - Región de Los Ríos #State
-      - Región de Los Lagos #State
+    zones: # How zone are classify 
+      Norte: # Macrozone
+        - Región de Atacama #State
+        - Región de Coquimbo #State
+        - Región de Antofagasta #State 
+        - Región de Arica y Parinacota #State
+      Centro:
+        - Región de Valparaíso #State
+        - Región del Maule #State
+        - Región de Ñuble #State
+        - Región Metropolitana de Santiago #State
+        - Región del Libertador Gral. Bernardo O’Higgins #State
+      Sur:
+        - Región del Biobío #State
+        - Región de la Araucanía #State
+        - Región de Los Ríos #State
+        - Región de Los Lagos #State
