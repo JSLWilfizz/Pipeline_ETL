@@ -36,11 +36,11 @@ In atributes_for_data/data.yaml:
       - Mini Hidráulica de Pasada
 
 
-    Fossil: # Specify type of Energy
-      - Biomasa
-      - Carbón
-      - Gas Natural
-      - Petróleo Diesel
+  Fossil: # Specify type of Energy
+    - Biomasa
+    - Carbón
+    - Gas Natural
+    - Petróleo Diesel
 
   zones: # How zone are classify 
     Norte: # Macrozone
@@ -48,7 +48,6 @@ In atributes_for_data/data.yaml:
       - Región de Coquimbo #State
       - Región de Antofagasta #State 
       - Región de Arica y Parinacota #State
-
     Centro:
       - Región de Valparaíso #State
       - Región del Maule #State
